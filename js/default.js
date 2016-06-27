@@ -1,4 +1,9 @@
 
+document.getElementById('form').onsubmit = function(){
+  window.alert(document.getElementById('form').word.value);
+  return false;
+};
+
 var maxNum = word - 0;
 
 for(var i = 1; i < maxNum; i++)
@@ -19,8 +24,3 @@ for(var i = 1; i < maxNum; i++)
   }
  document.getElementById('list').appendChild(li);
 }
-
-document.getElementById('form').onsubmit = function(){
-  window.alert(document.getElementById('form').word.value);
-  return false;
-};
