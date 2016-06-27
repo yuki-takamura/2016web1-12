@@ -4,7 +4,7 @@ document.getElementById('form').onsubmit = function(){
   return false;
 };
 
-word - 0;
+Number(word);
 
 for(var i = 1; i < word; i++)
 {
