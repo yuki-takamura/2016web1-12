@@ -6,7 +6,7 @@ document.getElementById('form').onsubmit = function(){
 
 Number(word);
 
-for(var i = 1; i < word; i++)
+for(var i = 1; i < 100; i++)
 {
   var li = document.createElement('li');
   
