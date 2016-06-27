@@ -9,10 +9,19 @@ var maxNum = number;
 for(var i = 1; i < maxNum; i++)
 {
   var li = document.createElement('li');
-  if((i%3 != 0) && (i%5 != 0))
-    {
+  if((i%3 != 0) && (i%5 != 0)){
       li.textContent = i;
-      document.getElementById('num').appendChild(li);
-    }
-    
+  }
+  else if((i%3 == 0) && (i%5 == 0)){
+    li.textContent = 'FizzBuzz';
+  }
+  else if(i%3==0)
+  {
+    li.textContent = 'Fizz';
+  }
+  else if(i%5==0)
+  {
+    li.textContent = 'Buzz';
+  }
+ document.getElementById('num').appendChild(li);
 }
