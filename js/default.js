@@ -12,7 +12,7 @@ if(parameters){
   word = parseInt(element[1]);
 }
 
-for(var i = 1; i < word; i++)
+for(var i = 1; i <= word; i++)
 {
   var li = document.createElement('li');
   
