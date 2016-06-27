@@ -4,7 +4,7 @@ document.getElementById('form').onsubmit = function(){
   return false;
 };
 
-var maxNum = number;
+var maxNum = word;
 
 for(var i = 1; i < maxNum; i++)
 {
