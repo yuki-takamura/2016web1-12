@@ -1,6 +1,6 @@
 
 document.getElementById('form').onsubmit = function(){
-  window.alert(docment.getElementById('form').word.value);
+  window.alert(document.getElementById('form').word.value);
   return false;
 };
 
