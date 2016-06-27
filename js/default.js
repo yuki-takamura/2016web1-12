@@ -4,9 +4,9 @@ document.getElementById('form').onsubmit = function(){
   return false;
 };
 
-var maxNum = word - 0;
+word - 0;
 
-for(var i = 1; i < maxNum; i++)
+for(var i = 1; i < word; i++)
 {
   var li = document.createElement('li');
   
