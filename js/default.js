@@ -22,5 +22,6 @@ for(var i = 1; i < word; i++)
   else {
     li.textContent = i;
   }
+  
  document.getElementById('list').appendChild(li);
 }
