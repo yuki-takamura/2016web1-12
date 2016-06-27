@@ -23,5 +23,5 @@ for(var i = 1; i < maxNum; i++)
   {
     li.textContent = 'Buzz';
   }
- document.getElementById('num').appendChild(li);
+ document.getElementById('list').appendChild(li);
 }
