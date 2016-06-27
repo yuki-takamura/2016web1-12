@@ -4,7 +4,7 @@ document.getElementById('form').onsubmit = function(){
 //  return false;
 };
 
-var word = 100;
+//var word = 100;
 var query = window.location.search.substring( 1 );
 var parameters = query.split( '&' );
 if(parameters){
